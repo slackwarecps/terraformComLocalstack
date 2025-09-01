@@ -54,3 +54,20 @@ endpoint_url = "arn:aws:execute-api:us-east-1:000000000000:xe7m719htk"
 http://192.168.1.100:4566/restapis/xe7m719htk/dev/_user_request_/olamundo
 
 
+## CONFIGURANDO O AWS CLI
+```
+[profile localstack]
+region = us-east-1
+endpoint_url = http://localhost:4566
+s3 =
+  addressing_style = path
+  signature_version = s3v4
+
+
+[profile fabaolocalsvr]
+region = us-east-1
+endpoint_url = http://192.168.1.100:4566
+s3 =
+  addressing_style = path
+  signature_version = s3v4
+```
