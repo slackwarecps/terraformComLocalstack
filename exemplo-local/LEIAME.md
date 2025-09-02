@@ -53,6 +53,17 @@ endpoint_url = "arn:aws:execute-api:us-east-1:000000000000:xe7m719htk"
 ## URL
 http://192.168.1.100:4566/restapis/xe7m719htk/dev/_user_request_/olamundo
 
+http://192.168.1.100:4566/restapis/crfsuyvx9s/dev/portobank/v1/conta-digital/ms-contatos/ola-mundo
+
+
+http://192.168.1.100:4566/restapis/bk2ymi5lw3/dev/_user_request_/portobank/v1/conta-digital/ms-contatos/ola-mundo
+
+http://192.168.1.100:4566/restapis/
+bk2ymi5lw3
+/dev/_user_request_
+/portobank/v1/conta-digital/ms-contatos/ola-mundo
+
+
 
 ## CONFIGURANDO O AWS CLI
 ```
